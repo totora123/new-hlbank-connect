@@ -6,7 +6,7 @@
 <title>HLB Connect mới · Một app, hai tài khoản</title>
 <meta name="description" content="HLB Connect mới gộp tài khoản cá nhân và tài khoản hộ kinh doanh vào một ứng dụng.">
 <!--
-  HLB Connect mới · Landing page DEMO v2.2 · AEM Custom HTML fragment (self-contained)
+  HLB Connect mới · Landing page DEMO v2.3 · AEM Custom HTML fragment (self-contained)
   Toàn bộ CSS/JS scope trong #hlbc. Nội dung, số liệu và hình ảnh là placeholder, chờ thay.
 
   Ảnh demo: lấy từ Unsplash (giấy phép Unsplash, dùng thương mại miễn phí, không cần ghi nguồn).
@@ -247,6 +247,11 @@ html{scrollbar-width:none;-ms-overflow-style:none}html::-webkit-scrollbar,body::
 #hlbc .f-l,#hlbc .f-l2{z-index:1}
 #hlbc .f-l{right:calc(50% + 160px)}#hlbc .f-l2{right:calc(50% + 150px)}
 @media(max-width:860px){#hlbc .hero{border-radius:26px 26px 0 0}#hlbc .f-l{right:auto}}
+#hlbc .hero{border:0;border-radius:0;margin:0 0 96px;background:transparent;box-shadow:none}
+#hlbc .h-title{line-height:1.2}
+#hlbc .h-visual::after{display:none}
+#hlbc .h-visual{-webkit-mask-image:linear-gradient(180deg,#000 50%,rgba(0,0,0,.4) 78%,transparent 100%);mask-image:linear-gradient(180deg,#000 50%,rgba(0,0,0,.4) 78%,transparent 100%)}
+@media(max-width:860px){#hlbc .hero{margin:0 0 64px;border-radius:0}}
 #hlbc .tkh .ticker{font-weight:800;letter-spacing:-.04em}
 #hlbc .dm .t-h2,#hlbc .fin-box .t-h2,#hlbc .sp-shop .t-h3{background:none;-webkit-background-clip:border-box;background-clip:border-box;color:inherit}
 @media(max-width:860px){#hlbc .hero{margin:8px;border-width:5px;border-radius:26px}#hlbc .h-visual{height:400px}#hlbc .h-phone{width:280px}}
